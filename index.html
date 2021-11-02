@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light mt-5">
+            <h1 class="navbar-brand dash-title" href="#">Customers</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <button class="btn btn-primary custom-add-customer-btn my-2 mx-1 my-sm-0" type="submit">Add Customer</button>
+                    <button class="btn custom-import-btn my-2 ml-1 my-sm-0" type="submit">Import</button>
+                </form>
+            </div>
+        </nav>
+        <section class="row justify-content-between align-items-center filters-container mx-3 mt-3 ">
+            <div class="d-flex">
+            
+                <div class="fliters-typography filters-custom-border px-3 py-1 mr-2">
+                    <span class="mr-1">Add Filter</span> 
+                    <span><img src="icons/add-filter-icon.svg" alt="..." width="15" class="filter-mb"></span>
+                </div>
+                <div class="fliters-typography filters-custom-border px-3 py-1 mr-2">
+                    <span class="text-secondary mr-1">Tag: <span class="text-dark">Lead</span></span> 
+                    <span><img src="icons/close-filter-icon.svg" alt="..." width="15" class="filter-mb"></span>
+                </div>
+                <div class="fliters-typography filters-custom-border px-3 py-1 mr-2">
+                    <span class="text-secondary mr-1">Type: <span class="text-dark">Person</span></span> 
+                    <span><img src="icons/close-filter-icon.svg" alt="..." width="15" class="filter-mb"></span>
+                </div>
+                <div class="fliters-typography filters-custom-border px-3 py-1 mr-2">
+                    <span class="text-secondary mr-1">Country: <span class="text-dark">United Kingdom</span></span> 
+                    <span><img src="icons/close-filter-icon.svg" alt="..." width="15" class="filter-mb"></span>
+                </div>
+            </div>
+            <div class="d-flex ">
+                <span class="dasht-results text-secondary">1,024 results</span>
+            </div>
+        </section>
+
+        <section class="mx-3 mt-4">
+            <div>  
+                <table class="table table-hover">
+                    <thead class="table-header-bg">
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <th scope="col" class="text-secondary">Customer</th>
+                            <th scope="col" class="text-secondary">Company</th>
+                            <th scope="col">Last Contacted</th>
+                            <th scope="col" class="text-secondary">Tags</th>
+                            <th scope="col"><img src="icons/option.svg" alt="..."></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/John.jpg" alt="..." width="20" class="user-imgs mr-3">Jordon Kennedy <span class="ml-3 text-secondary">jordon.kennedy@example.com</span></td>
+                            <td>MasterCard</td>
+                            <td>Tue 6 Apr, 16:42</td>
+                            <td><span class="exiting-tag">Existing</span><span class="lead-tag ml-2">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Tanya.jpg" alt="..." width="20" class="user-imgs mr-3">Tanya Hill <span class="ml-3 text-secondary">tanya.hill@example.com</span></td>
+                            <td>McDonald's</td>
+                            <td>Mon 5 Apr, 09:56</td>
+                            <td><span class="lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Robert.jpg" alt="..." width="20" class="user-imgs mr-3">Robert Fox <span class="ml-3 text-secondary">robert.fox@example.com</span></td>
+                            <td>Ferrari</td>
+                            <td>Wen 31 Apr, 12:34</td>
+                            <td><span class="longterm-tag">Long-term</span><span class="ml-2 lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Dabbie.jpg" alt="..." width="20" class="user-imgs mr-3">Debbie Baker<span class="ml-3 text-secondary">debbie.baker@example.com</span></td>
+                            <td>Nintendo</td>
+                            <td>Tue 30 Apr, 19:03</td>
+                            <td><span class="longterm-tag">Long-term</span><span class="ml-2 partner-tag">Partner</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Guy.jpg" alt="..." width="20" class="user-imgs mr-3">Guy Hawkins<span class="ml-3 text-secondary">huy.hawkins@example.com</span></td>
+                            <td>eBay</td>
+                            <td>Mon 29 Apr, 15:49</td>
+                            <td><span class="affiliate-tag">Affiliate</span><span class="ml-2 lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Felicia.jpg" alt="..." width="20" class="user-imgs mr-3">Felicia Reid<span class="ml-3 text-secondary">felicai.reid@example.com</span></td>
+                            <td>L'Oreal</td>
+                            <td>Fri 26 Apr, 11:43</td>
+                            <td><span class="lead-tag">Lead</span><span class="ml-2 retail-tag">Retail</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Curtis.jpg" alt="..." width="20" class="user-imgs mr-3">Curtis Weaver<span class="ml-3 text-secondary">curtis.weaver@example.com</span></td>
+                            <td>Sony</td>
+                            <td>Wen 31 Apr, 08:24</td>
+                            <td><span class="partner-tag">Partner</span><span class="ml-2 lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Debra.jpg" alt="..." width="20" class="user-imgs mr-3">Debra Halt <span class="ml-3 text-secondary">debra.halt@example.com</span></td>
+                            <td>IBM</td>
+                            <td>Thu 25 Apr, 14:58</td>
+                            <td><span class="lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+                        <tr>
+                            <td scope="row"><input type="checkbox"></td>
+                            <td><img src="imgs/Jackson.jpg" alt="..." width="20" class="user-imgs mr-3">Jackson Graham<span class="ml-3 text-secondary">jackson.graham@example.com</span></td>
+                            <td>Facebook</td>
+                            <td>Thu 25 Apr, 10:25</td>
+                            <td><span class="longterm-tag">Long-term</span><span class="ml-2 lead-tag">Lead</span></td>
+                            <td scope="col"><img src="icons/option.svg" alt="..."></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
+
+

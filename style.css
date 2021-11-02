@@ -1,0 +1,102 @@
+
+
+.dash-title {
+    font-size: 28px;
+}
+
+.custom-add-customer-btn {
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.custom-import-btn {
+    border: 1px solid #D5DDE6 !important;
+    border-radius: 6px;
+    padding: 5px 13px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.filters-custom-border {
+    border: 1px solid #CFD8E3;
+    border-radius: 6px;
+}
+
+.filter-mb {
+    margin-bottom: 0.5px;
+}
+
+.fliters-typography {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.dasht-results {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.table-header-bg {
+    background-color: #F1F5F9;
+}
+    
+th, td {
+    padding: 10px !important;
+    font-weight: 500;
+    font-size: 13px;
+    border:none !important;
+}
+
+.user-imgs {
+    border-radius: 50px;
+}
+
+.exiting-tag{
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.lead-tag {
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.longterm-tag {
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.affiliate-tag {
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.retail-tag {
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.partner-tag {
+    background-color: #F1F5F9;
+    border-radius: 50px;
+    padding: 2px 7px;
+    font-weight: 500;
+    font-size: 12px;
+}

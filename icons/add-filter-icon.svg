@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="add-fliter-icon" transform="translate(-840 -517)">
+    <g id="Group_1" data-name="Group 1" transform="translate(840 517)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M18,13H13v5a1,1,0,0,1-2,0V13H6a1,1,0,0,1,0-2h5V6a1,1,0,0,1,2,0v5h5a1,1,0,0,1,0,2Z" fill="#64748b"/>
+    </g>
+  </g>
+</svg>
