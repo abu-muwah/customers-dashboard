@@ -1,4 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+.search-bar {
+    border: 1px solid #D5DDE6;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.synce-note {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-search-input {
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    outline: none;
+}
+
+.search-bar img {
+    margin-bottom: 1px;;
+}
 
 .dash-title {
     font-size: 28px;
